@@ -4,6 +4,8 @@ Arquitecturas Empresariales 2020-2
 
 ## Generalidades
 
+https://warm-thicket-08550.herokuapp.com/inputdata
+
 Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Git y JAVA para su desarrollo.
 
 Puede encontrar el informe en https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/site/resources
