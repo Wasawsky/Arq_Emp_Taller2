@@ -57,7 +57,7 @@ public class Calculator {
     public static void readFile(String fileName, LinkedList list) {
         FileHandler handler = new FileHandler(fileName);
         try {
-            handler.getNumberLines(list);
+            handler.getLines(list);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -67,7 +67,7 @@ public class Calculator {
         FileHandler handler = new FileHandler(file);
         LinkedList list = new LinkedList();
         try {
-            handler.getNumberLines(list);
+            handler.getLines(list);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -76,7 +76,7 @@ public class Calculator {
     /**
      * Metodo Principal del Proyecto
      * 
-     * @param args
+     * @param args argumento
      */
     public static void main(String args[]) {
 

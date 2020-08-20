@@ -35,9 +35,10 @@ public class FileHandler {
     /**
      * Retorna la LinkedList con los datos almacenados
      * @param list la LinkedList a llenar
-     * @throws IOException
+     * @return list la lista leida
+     * @throws IOException En caso de que falle la lectura de datos
      */
-    public LinkedList getNumberLines(LinkedList list) throws IOException {
+    public LinkedList getLines(LinkedList list) throws IOException {
         InputStream in = new FileInputStream(file);
         BufferedReader br = new BufferedReader(new InputStreamReader(in));
         String line;

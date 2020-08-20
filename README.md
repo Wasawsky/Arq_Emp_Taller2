@@ -21,6 +21,9 @@ http://maven.apache.org/download.html#Installation
 
 También necesitara tener la versión más reciente de Java y jdk actualizados.
 
+Si necesita ejecutar el servidor web con heroku, debe instalar el CLI que ofrece heroku, ingrese con su usuario y contraseña.
+https://www.heroku.com
+
 Instale git si aún no lo tiene instalado en su computador.
 
 Lo puede encontrar y seguir los pasos de su instalación en:
@@ -36,7 +39,7 @@ Cuando esté preparado abra un directorio en su computador donde quiera trabajar
 Ejecuta la consola de comandos desde el directorio y escribe en la línea de comandos
 
 ```
-git clone https://github.com/Wasawsky/Arq_Emp_Taller1.git
+git clone https://github.com/Wasawsky/Arq_Emp_Taller2.git
 ```
 
 Se le creara una carpeta llamada Arq_Emp_Taller1 en el directorio, es este repositorio desde donde trabajara.
@@ -52,20 +55,31 @@ mvn package
 Para que se ejecute el POM.xml del proyecto.
 Se descargarán librerías que necesitara el proyecto, puede tardar algunos minutos si es la primera vez que ejecuta el comando.
 
-## Ejecutando Casos de Prueba
+## Despliegue Local
 
-Ejecute el comando 
+Si necesita ejecutar localmente el servidor, use el siguiente comando para ejecutarlo desde cmd de Windows
+
 ```
-mvn test
+web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.SparkWebApp
+```
+Abra su navegador y busque la direccion web:
+
+http://localhost:4567/inputdata
+
+Si desea usar heroku para el despliegue local, coloque en la consola el comando
+
+```
+heroku local web
 ```
 
-Para que se ejecuten los casos de prueba del proyecto, puede ver su implementación en 
-https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/test/resources/data
+Abra su navegador y busque la direccion web:
 
+
+http://localhost:5000/inputdata
 
 ### Funcionalidades
 
-Este proyecto permite calcular la media aritmética de un conjunto de valores, además podemos hallar la desviación estándar de los datos.
+Este proyecto, desplegado en heroku, permite calcular la media aritmética de un conjunto de valores, además podemos hallar la desviación estándar de los datos.
 
 ## Uso
 
@@ -80,6 +94,7 @@ Si necesita casos de prueba vaya a https://github.com/Wasawsky/Arq_Emp_Taller1/t
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [GIT](https://git-scm.com/) - Environment Version Control System
 * [Java](https://www.java.com/es/) - General-purpose programming language
+* [Heroku](https://www.heroku.com) - Cloud platform as a service
 
 ## Sobre el autor
 
