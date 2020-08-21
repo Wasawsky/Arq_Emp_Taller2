@@ -13,7 +13,7 @@ public class Calculator {
      * @param array array que representa la LinkedList
      * @return Promedio de datos
      */
-    public Double calculateMean(Double[] array) {
+    public static Double calculateMean(Double[] array) {
         Double sum = 0d;
         int n = array.length;
         for (Double x : array) {
@@ -44,7 +44,7 @@ public class Calculator {
      * @param array Array que representa los datos de la LinkedList
      * @return Desviacion estandar de los datos y la media
      */
-    public double calculateDeviation(Double[] array) {
+    public static double calculateDeviation(Double[] array) {
         return calculateDeviation(array, calculateMean(array));
     }
 

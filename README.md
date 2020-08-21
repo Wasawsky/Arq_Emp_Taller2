@@ -113,3 +113,6 @@ Para más proyectos, Sígueme y encuentra mis repositorios :D
 Felipe Portales-Oliva
 
 Johni0702
+
+[![CircleCI](https://circleci.com/gh/Wasawsky/Arq_Emp_Taller2.svg?style=svg)](https://circleci.com/gh/Wasawsky/Arq_Emp_Taller2)
+
