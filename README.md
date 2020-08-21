@@ -8,7 +8,7 @@ https://warm-thicket-08550.herokuapp.com/inputdata
 
 Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Git y JAVA para su desarrollo.
 
-Puede encontrar el informe en https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/site/resources
+Puede encontrar el informe en https://github.com/Wasawsky/Arq_Emp_Taller2/tree/master/src/site/resources
 
 
 ### Prerrequisitos
@@ -80,6 +80,9 @@ http://localhost:5000/inputdata
 ### Funcionalidades
 
 Este proyecto, desplegado en heroku, permite calcular la media aritmética de un conjunto de valores, además podemos hallar la desviación estándar de los datos.
+
+![diagram](https://github.com/Wasawsky/Arq_Emp_Taller2/blob/master/src/resources/Capture.JPG)
+
 
 ## Uso
 
