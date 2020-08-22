@@ -6,7 +6,7 @@ Arquitecturas Empresariales 2020-2
 
 https://warm-thicket-08550.herokuapp.com/inputdata
 
-Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Git y JAVA para su desarrollo.
+Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Heroku, Spark, Git y JAVA para su desarrollo.
 
 Puede encontrar el informe en https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/site/resources
 
@@ -95,6 +95,7 @@ Si necesita casos de prueba vaya a https://github.com/Wasawsky/Arq_Emp_Taller1/t
 * [GIT](https://git-scm.com/) - Environment Version Control System
 * [Java](https://www.java.com/es/) - General-purpose programming language
 * [Heroku](https://www.heroku.com) - Cloud platform as a service
+* [Spark](http://sparkjava.com/) - Micro framework for creating web applications
 
 ## Sobre el autor
 
